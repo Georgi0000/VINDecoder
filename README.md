@@ -6,6 +6,26 @@ The app uses a lightweight **in-memory VIN decoding system** without any databas
 
 ---
 
+# 📱 Application Preview
+
+## Home Screen
+
+<img src="image1.png" alt="Home Screen" width="300"/>
+
+
+## VIN Decoder Screen
+
+<img src="image2.png" alt="VIN Decoder Screen" width="300"/>
+
+
+---
+
+## Service Intervals Result
+
+<img src="image3.png" alt="Service Intervals Result" width="300"/>
+
+
+---
 ## ✨ Features
 
 - 🔍 VIN number decoding based on WMI (World Manufacturer Identifier)
