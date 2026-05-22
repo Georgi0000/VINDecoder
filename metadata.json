@@ -1,0 +1,6 @@
+{
+  "name": "VIN Service Checker",
+  "description": "Premium dark service interval decoder based on VIN. Decodes manufacturer intervals (like oil, brakes, and more) from World Manufacturer Identifier (WMI).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

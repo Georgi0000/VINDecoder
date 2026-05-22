@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="27"
+        android:translateY="27">
+        <!-- Speedometer Gauge Outer Arc (representing performance) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M 6.42,44 C 3,36 3.5,23.5 10.7,14.5 C 19.3,3.7 34.7,3.7 43.3,14.5 C 50.5,23.5 51,36 47.58,44" />
+        
+        <!-- Inside Tick marks -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:pathData="M 12,20 L 15,23.5 M 42,20 L 39,23.5" />
+
+        <!-- Gauge Needle pointing to active service check -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#26A69A"
+            android:strokeWidth="4.5"
+            android:strokeLineCap="round"
+            android:pathData="M 27,33 L 39,18" />
+
+        <!-- Needle anchor hub circle -->
+        <path
+            android:fillColor="#26A69A"
+            android:pathData="M 27,29 A 4,4 0 1,1 26.99,29 Z" />
+
+        <!-- Checkmark underneath (representing safety check) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M 17,40 L 25,47 L 43,30" />
+    </group>
+</vector>
